@@ -1,0 +1,74 @@
+
+<!--
+
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+       
+        <title></title>
+       
+        <link rel="stylesheet" href="MyGoals.css">
+  
+    </head>
+
+        
+<body>
+
+<p>Display some text when the checkbox is checked:</p>
+
+<label for="myCheck"><input type="text"></label> 
+<input type="checkbox" id="myCheck" onclick="myFunction()">
+
+<p id="text" style="display:none">Checkbox is CHECKED!</p>
+
+<script>
+function myFunction() {
+  var checkBox = document.getElementById("myCheck");
+  var text = document.getElementById("text");
+  if (checkBox.checked == true){
+    text.style.display = "block";
+  } else {
+     text.style.display = "none";
+  }
+}
+</script>
+  <script src="script.js"></script>
+</body>
+</html>
+-->
+
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta Charset="utf-8">
+<title>Sign up</title>
+<link rel="stylesheet" type="text/css" href="MyGoals.css">
+</head>
+<body>
+<h1>Thats My Goals.. </h1>
+<div class="box">
+    
+    <p>Write goals here:</p>
+
+<label for="myCheck"><input type="text"></label> 
+<input type="checkbox" id="myCheck" onclick="myFunction()">
+
+<p id="text" style="display:none">Checkbox is CHECKED!</p>
+
+<script>
+function myFunction() {
+  var checkBox = document.getElementById("myCheck");
+  var text = document.getElementById("text");
+  if (checkBox.checked == true){
+    text.style.display = "block";
+  } else {
+     text.style.display = "none";
+  }
+}
+</script>
+
+</div>
+</body>
+</html>
